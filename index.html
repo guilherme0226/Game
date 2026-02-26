@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+        <h1>Bem vindo ao meu jogo</h1>
+        <h2>Chute e veja a sua sorte</h2>
+        
+
+        <div class="resultado">
+            <input type="number" id="chute" placeholder="Chute">
+            <p id="batata">0 resultado é:</p>
+            <img id="cabra" src="https://www.gifcen.com/wp-content/uploads/2023/07/obito-gif-6.gif" alt="">
+        </div>
+        
+        <div class="botao">
+            <button onclick="start()">start</button>
+            <button onclick="reset()">reset</button>
+        </div>
+        <audio id="acerto" src ="som1.mp3"></audio>
+        <audio id ="erro" src = "som2.mp3"></audio>
+        <script src="script.js"></script>
+        
+   </body>
+</html>
